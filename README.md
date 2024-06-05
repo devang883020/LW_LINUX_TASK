@@ -1,5 +1,5 @@
 # LW_LINUX_TASK
-this is the repository for linux task:
+#This is the repository for linux task:
 
 1.Install docker inside docker:-
 Installing Docker inside Docker (often referred to as "Docker in Docker" or "DinD") on a Red Hat Linux system involves setting up Docker and configuring it to run Docker containers within Docker containers.
