@@ -10,7 +10,8 @@ Installing Docker inside Docker (often referred to as "Docker in Docker" or "Din
 
 
 
-2.How can we use the linux as a Zoom kind platform for video streaming.
+2.How can we use the linux as a Zoom kind platform for video streaming:
+
 install node.js
 create a nodejs project
 install express socket.io
@@ -30,6 +31,7 @@ install the jitsi meet from this repository:-https://jitsi.github.io/handbook/do
 
 
 3. How to launch the webserver in the docker container:
+
 using systemctl start the docker container
 create a Dockerfile
 create an nginx configuration file
@@ -43,6 +45,7 @@ run the docker container
 
 
  4. Find out the command to do Email from the linux terminal:
+
 sudo apt update
 sudo apt install mailutils
 sudo yum install mailx
@@ -69,6 +72,7 @@ echo "This is the body of the email." | mail -s "This is the subject" user@examp
 
 
 6.Find out the command to do whatsapp message from the linux terminal:
+
 yum install nodejs
 yum install groupinstall "Development Tools"
 npm install -g mudslide  login
@@ -88,6 +92,7 @@ npx mudslide send phone_number "message"
 
 
 7. Find the command to get the output of any command from the speaker:
+   
     cal | espeak-ng
 
    
@@ -96,6 +101,7 @@ npx mudslide send phone_number "message"
 
 
 8. how to launch the webserver in the docker container:
+
 using systemctl start the docker container
 create a Dockerfile
 create an nginx configuration file
@@ -125,6 +131,7 @@ GitHub
 
 
 11. Find out the command to do SMS from the linux terminal:
+
 Yum install curl
 curl -X POST "https://api.twilio.com/2010-04-01/Accounts/your_account_sid/Messages.json" \
 --data-urlencode "To=+1234567890" \
@@ -230,5 +237,8 @@ cv2.destroyAllWindows()
 
 
 12.How can we make a post in telegram,instagram,facebook, discord from the linux terminal:
+
 https://api.telegram.org/bot7439985955:AAF_bwFrD8JbAHdbj-N-eMjM-SpJS2UFI0Q/getUpdates
-curl -s -X POST https://api.telegram.org/bot7326363154:AAE2TIOwBmJSuLlg7IHVYgC0ECLbnO0g4Sw/sendMessage -d chat_id=-1002231978174 -d text="qwertyui"
+curl -s -X POST 
+
+https://api.telegram.org/bot7326363154:AAE2TIOwBmJSuLlg7IHVYgC0ECLbnO0g4Sw/sendMessage -d chat_id=-1002231978174 -d text="qwertyui"
