@@ -10,6 +10,15 @@ Installing Docker inside Docker (often referred to as "Docker in Docker" or "Din
 
 
 
+
+
+![alt text](https://github.com/devang883020/LW_LINUX_TASK/blob/main/docker_jitsi_meet.jpg)
+
+
+
+
+
+
 2.How can we use the linux as a Zoom kind platform for video streaming:
 
 install node.js
@@ -19,8 +28,6 @@ create server.js file
 create index.html file for the client
 run the server
 install the jitsi meet from this repository:-https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/
-
-![alt text](https://github.com/devang883020/LW_LINUX_TASK/blob/main/docker_jitsi_meet.jpg)
 
 
 ![alt text](https://github.com/devang883020/LW_LINUX_TASK/blob/main/docker_jitsi_meet_2.jpg)
