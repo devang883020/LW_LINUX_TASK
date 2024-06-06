@@ -130,7 +130,8 @@ run the docker container
 
 
 
-10.
+10.Launch a webserver in docker container . Connect to that using host windows system outside of linux vm:
+
 ![alt text](https://github.com/devang883020/LW_LINUX_TASK/blob/main/webserver_linux.jpg)
 GitHub
 ![alt text](https://github.com/devang883020/LW_LINUX_TASK/blob/main/GitHub)
